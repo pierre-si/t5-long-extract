@@ -18,6 +18,7 @@ for name in os.listdir( 'training/gold_summaries'):
 summaries=[]
 refs=[]
 data=[]
+data_long=[]
 data_ids=[]
 
 content_cut_start = 22000
